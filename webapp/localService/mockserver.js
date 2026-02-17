@@ -4,6 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	return {
+
 		init: function() {
 			// mock the service call from manifest.json
 			var oMockServer = new MockServer({
